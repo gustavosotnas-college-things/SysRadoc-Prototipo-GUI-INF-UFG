@@ -1,0 +1,52 @@
+﻿======= BARRA SUPERIOR =======
+
+LOGOMARCA DO INF (Original)
+
+Símbolo: 005ca1 (azul)
+Nome: 1e1a17 (marrom escuro)
+
+LOGOMARCA DO INF (Mono)
+
+Símbolo: ffffff (branco)
+Nome: ffffff (branco)
+
+BARRA SUPERIOR
+
+Background: 81c2ea (azul claro)
+Shadow (1 px abaixo do "background"): 
+	Color: 000000 (preto)
+	Opacity: 50
+	Desfoque: 2
+	No Prototyper:
+		Desfoque: 50
+		Distance: 5px
+		Angle: 90º
+		Spread: -13
+
+======= TEXTO =======
+
+TITULO DO CARD (2 linhas de texto no máximo)
+
+Fonte: Roboto Light
+Tamanho: 40px
+Color: 000000 (preto)
+
+SUBTITULO DO CARD (1 linha)
+
+Fonte: Roboto Medium
+Tamanho: 24px
+Color: 808080 (50% cinza)
+
+TEXTO DO CARD (formato "Texto de parágrafo")
+
+Fonte: Roboto Medium
+Tamanho: 32px
+Color: 000000 (preto)
+
+BACKGROUND DE FOTO EM CARD
+
+Color: f5f5f5 (cinza claro)
+
+LINKS (mesma fonte e tamanho de "TEXTO DO CARD")
+
+Color: 345081 (Azul)
