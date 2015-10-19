@@ -1,4 +1,4 @@
-![SysRadoc_logo](Desenhos do protótipo/SysRadoc.svg) SysRadoc-Prototipo-GUI-INF-UFG
+![SysRadoc-Prototipo-GUI-INF-UFG](https://cdn.rawgit.com/gustavosotnas/SysRadoc-Prototipo-GUI-INF-UFG/master/Desenhos do protótipo/SysRadoc.svg)
 ==============================================
 Protótipo de interface gráfica para o site do SysRadoc / Instituto de Informática / UFG apresentado como trabalho de conclusão da disciplina de *Integração 1* no 6º período do semestre 2015/2 do curso de Engenharia de Software da Universidade Federal de Goiás.
 
