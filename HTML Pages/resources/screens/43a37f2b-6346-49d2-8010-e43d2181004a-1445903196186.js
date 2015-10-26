@@ -4,30 +4,7 @@ jQuery("#simulation")
     if(data === undefined) { data = event; }
     jEvent = jimEvent(event);
     jFirer = jEvent.getEventFirer();
-    if(jFirer.is("#s-Text_3")) {
-      cases = [
-        {
-          "blocks": [
-            {
-              "actions": [
-                {
-                  "action": "jimNavigation",
-                  "parameter": {
-                    "target": "screens/b83cda5c-53b8-4f6f-b3ae-0eccbb12aedf"
-                  },
-                  "exectype": "serial",
-                  "delay": 0
-                }
-              ]
-            }
-          ],
-          "exectype": "serial",
-          "delay": 0
-        }
-      ];
-      event.data = data;
-      jEvent.launchCases(cases);
-    } else if(jFirer.is("#s-Botao_mouse_over_15")) {
+    if(jFirer.is("#s-Botao_mouse_over_15")) {
       cases = [
         {
           "blocks": [
