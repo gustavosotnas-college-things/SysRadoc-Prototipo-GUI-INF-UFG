@@ -382,6 +382,7 @@
   transform: rotate(0deg);
   box-shadow: none;
   text-shadow: none;
+  cursor: pointer;
   font-size: 12.0pt;
   font-family: Roboto-Light,Arial;
 }
