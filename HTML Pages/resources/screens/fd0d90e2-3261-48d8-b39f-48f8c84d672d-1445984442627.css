@@ -89,6 +89,7 @@
   -moz-transform: rotate(0deg);
   transform: rotate(0deg);
   box-shadow: none;
+  cursor: pointer;
 }
 #s-fd0d90e2-3261-48d8-b39f-48f8c84d672d #s-Image_4 {
   position: absolute;
@@ -125,6 +126,7 @@
   transform: rotate(0deg);
   box-shadow: none;
   text-shadow: none;
+  cursor: pointer;
   font-size: 11.0pt;
   font-family: Roboto-Bold,Arial;
 }
@@ -160,6 +162,7 @@
   transform: rotate(0deg);
   box-shadow: none;
   text-shadow: none;
+  cursor: pointer;
   font-size: 11.0pt;
   font-family: Roboto-Regular,Arial;
 }
@@ -1194,6 +1197,68 @@
   font-size: 11.0pt;
   font-style: normal;
   font-weight: 400;
+  line-height: 0px;
+}
+#s-fd0d90e2-3261-48d8-b39f-48f8c84d672d #s-Button_2 {
+  position: absolute;
+  top: 14px;
+  left: 620px;
+  width: 167px;
+  height: 29px;
+  background-color: #F44336;
+  background-image: none;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #F44336;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #F44336;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #F44336;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #F44336;
+  border-radius: 6px 6px 6px 6px;
+  padding-top: 3px;
+  padding-right: 3px;
+  padding-bottom: 3px;
+  padding-left: 3px;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  transform: rotate(0deg);
+  box-shadow: none;
+  text-shadow: none;
+  display: none;
+  cursor: pointer;
+  font-size: 14.0pt;
+  font-family: Roboto-Light,Arial;
+}
+#s-fd0d90e2-3261-48d8-b39f-48f8c84d672d #s-Button_2 .valign {
+  vertical-align: middle;
+  text-align: center;
+}
+#s-fd0d90e2-3261-48d8-b39f-48f8c84d672d #s-Button_2 span {
+  color: #FFFFFF;
+  text-align: center;
+  text-decoration: none;
+  font-family: Roboto-Light,Arial;
+  font-size: 14.0pt;
+}
+#s-fd0d90e2-3261-48d8-b39f-48f8c84d672d #s-Button_2 span#rtr-s-Button_2_0 {
+  color: #FFFFFF;
+  text-align: center;
+  text-decoration: none;
+  font-family: Roboto-Light,Arial;
+  font-size: 14.0pt;
+  line-height: 0px;
+}
+#s-fd0d90e2-3261-48d8-b39f-48f8c84d672d #s-Button_2 span#rtr-s-Button_2_1 {
+  color: #FFFFFF;
+  text-align: center;
+  text-decoration: none;
+  font-family: Roboto-Light,Arial;
+  font-size: 14.0pt;
   line-height: 0px;
 }
 #s-fd0d90e2-3261-48d8-b39f-48f8c84d672d #s-Drop_down_acessibilidade {
