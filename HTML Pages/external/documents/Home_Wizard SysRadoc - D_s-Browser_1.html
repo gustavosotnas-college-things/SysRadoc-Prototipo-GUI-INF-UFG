@@ -1,0 +1,55 @@
+<style>
+form{
+  position: absolute;
+  width: 500px;
+  height: 200px;
+  border: 2px dashed #005ca1;
+}
+form p{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 170px;
+  color: #005ca1;
+  font-family: Arial;
+}
+form input{
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  opacity: 0;
+}
+form button{
+  margin: 0;
+  color: #fff;
+  background: #005ca1;
+  border: none;
+  width: 508px;
+  height: 35px;
+  margin-top: -20px;
+  margin-left: -4px;
+  border-radius: 4px;
+  transition: all .2s ease;
+  outline: none;
+}
+form button:hover{
+  opacity: 0.85;
+}
+form button:active{
+  border:0;
+}
+</style>
+<script>
+$(document).ready(function(){
+  $('form input').change(function () {
+    $('form p').text(this.files.length + " file(s) selected");
+  });
+});
+</script>
+<form action="about:blank" method="POST">
+  <input type="file" multiple accept="application/pdf">
+  <p>Arraste seus arquivos para cá ou clique nesta área.</p>
+</form>

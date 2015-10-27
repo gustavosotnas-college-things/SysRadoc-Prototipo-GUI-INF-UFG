@@ -81,6 +81,28 @@
 #s-43a37f2b-6346-49d2-8010-e43d2181004a #s-Text_3 {
   -ms-transform: rotate(0.0deg);
 }
+#s-43a37f2b-6346-49d2-8010-e43d2181004a #s-Button_1 {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #005CA1;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #005CA1;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #005CA1;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #005CA1;
+  border-radius: 5px 5px 5px 5px;
+  padding-top: 3px;
+  padding-right: 3px;
+  padding-bottom: 3px;
+  padding-left: 3px;
+  width: 497px;
+  height: 24px;
+  -ms-transform: rotate(0.0deg);
+}
 #s-43a37f2b-6346-49d2-8010-e43d2181004a #s-Panel_4 > .valign {
   vertical-align: middle;
 }

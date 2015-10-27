@@ -1,7 +1,6 @@
 (function(window, undefined) {
   var dictionary = {
     "1a75ab75-7774-4c29-a5c8-98382d9bb4a6": "Recuperação_Cadastro SysRadoc - D",
-    "7762c87c-e294-4acc-b473-775656e6d44e": "Página inicial INF - D_original",
     "43a37f2b-6346-49d2-8010-e43d2181004a": "Home_Wizard SysRadoc - D",
     "24007360-52e3-49dd-875b-cbf133d1ce01": "Sucesso_Recuperação_Cadastro SysRadoc - D",
     "d4c4a8c5-4598-4db6-8e20-3823d7f561df": "Cadastro SysRadoc - D",

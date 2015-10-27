@@ -4,7 +4,30 @@ jQuery("#simulation")
     if(data === undefined) { data = event; }
     jEvent = jimEvent(event);
     jFirer = jEvent.getEventFirer();
-    if(jFirer.is("#s-Botao_mouse_over_15")) {
+    if(jFirer.is("#s-Button_1")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimNavigation",
+                  "parameter": {
+                    "target": "screens/43a37f2b-6346-49d2-8010-e43d2181004a"
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Botao_mouse_over_15")) {
       cases = [
         {
           "blocks": [
@@ -1158,7 +1181,49 @@ jQuery("#simulation")
     if(data === undefined) { data = event; }
     jEvent = jimEvent(event);
     jFirer = jEvent.getDirectEventFirer(this);
-    if(jFirer.is("#s-Botao_mouse_over_15") && jFirer.has(event.relatedTarget).length === 0) {
+    if(jFirer.is("#s-Button_1") && jFirer.has(event.relatedTarget).length === 0) {
+      event.backupState = true;
+      event.target = jFirer;
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimChangeStyle",
+                  "parameter": [ {
+                    "#s-43a37f2b-6346-49d2-8010-e43d2181004a #s-Button_1": {
+                      "attributes": {
+                        "opacity": "0.85"
+                      }
+                    }
+                  },{
+                    "#s-43a37f2b-6346-49d2-8010-e43d2181004a #s-Button_1": {
+                      "attributes-ie": {
+                        "-ms-filter": "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)",
+                        "filter": "alpha(opacity=85)"
+                      }
+                    }
+                  },{
+                    "#s-43a37f2b-6346-49d2-8010-e43d2181004a #s-Button_1": {
+                      "attributes-ie8lte": {
+                        "-ms-filter": "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)",
+                        "filter": "alpha(opacity=85)"
+                      }
+                    }
+                  } ],
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Botao_mouse_over_15") && jFirer.has(event.relatedTarget).length === 0) {
       event.backupState = true;
       event.target = jFirer;
       cases = [
@@ -1312,7 +1377,9 @@ jQuery("#simulation")
     if(data === undefined) { data = event; }
     jEvent = jimEvent(event);
     jFirer = jEvent.getDirectEventFirer(this);
-    if(jFirer.is("#s-Botao_mouse_over_15")) {
+    if(jFirer.is("#s-Button_1")) {
+      jEvent.undoCases(jFirer);
+    } else if(jFirer.is("#s-Botao_mouse_over_15")) {
       jEvent.undoCases(jFirer);
     } else if(jFirer.is("#s-Image_2")) {
       jEvent.undoCases(jFirer);
